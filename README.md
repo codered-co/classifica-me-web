@@ -1,3 +1,3 @@
-# classifica.me [![Website monip.org](https://img.shields.io/website-up-down-green-red/http/monip.org.svg)](http://classifica.me/)
+# classifica.me ![Website](https://img.shields.io/website/http/classifica.me?down_message=offline&up_message=online)
 
 Site da aplicação android criada para a MercoNoroeste 2019

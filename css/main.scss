@@ -1794,6 +1794,13 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include breakpoint(small) {
 			@include padding(3em, 2em);
 		}
+
+		form{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-bottom: 10vh;
+		}
 	}
 
 /* Landing */

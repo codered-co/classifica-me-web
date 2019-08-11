@@ -1,11 +1,57 @@
----
-layout: landing
----
-				<!-- Banner -->
+<!DOCTYPE html>
+<!--
+  Original Design: Spectral by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Jekyll build mod
+-->
+<html>
+
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>classifica.me</title>
+  <meta name="description" content="Classifique empresas   
+pelo o que elas valem  
+para você
+">
+  <!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="stylesheet" href="/css/main.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+  <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
+  <link rel="alternate" type="application/rss+xml" title="classifica.me" href="http://localhost:4000/feed.xml">
+  <script src="/js/countdown.min.js"></script>
+</head>
+
+
+  <body class="landing">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+      <!-- Header -->
+<header id="header" class="alt">
+  <h1><a href="/index.html">classifica.me</a></h1>
+  
+  <nav id="nav">
+    <ul>
+      <li><a href="#categorias" class="more scrolly">Categorias</a></li>
+      <li><a href="#como-funciona" class="more scrolly">Como funciona</a></li>
+      <li><a href="#sugerir-uma-empresa" class="more scrolly">Sugerir uma empresa</a></li>
+  </nav>
+
+</header>
+
+
+      				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>{{ site.title }}</h2>
-							<p>{{ site.description | markdownify }}</p>
+							<h2>classifica.me</h2>
+							<p><p>Classifique empresas <br />
+pelo o que elas valem<br />
+para você</p>
+</p>
 							<ul class="actions">
 								<li><a href="#cta" class="button special scrolly">Baixar</a></li>
 							</ul>
@@ -126,3 +172,106 @@ layout: landing
 			
 				
 				
+
+
+      <!-- Footer -->
+<footer id="footer">
+
+
+ <form action="https://formspree.io/contato@codered.online" method="post" class="contact-form" id="sugerir-uma-empresa">
+    <h2>SUGIRA UMA EMPRESA</h2>
+    <span id="form-note">Após clicar em enviar você será redirecionado para uma página externa para autenticação</span>
+    <form method="post" action="#">
+      <div class="row uniform">
+        <div class="6u 12u$(xsmall)">
+          <input type="text" name="demo-name" id="demo-name" value="" placeholder="Nome/Empresa">
+        </div>
+        <div class="6u$ 12u$(xsmall)">
+          <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email">
+        </div>
+        <div class="12u$">
+          <div class="select-wrapper">
+            <select name="demo-category" id="demo-category">
+              <option value="">Categoria</option>
+              <option value="1">Sugestão</option>
+              <option value="1">Crítica</option>
+              <option value="1">Dúvida</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="12u$">
+          <textarea name="demo-message" id="demo-message" placeholder="Escreva sua mensagem" rows="6"></textarea>
+        </div>
+        <div class="12u$">
+          <ul class="actions">
+            <li><input type="submit" value="Enviar" class="special"></li>
+            <li><input type="reset" value="Resetar"></li>
+          </ul>
+        </div>
+      </div>
+  </form>
+
+
+
+  <ul class="icons">
+    
+    
+    
+    <li><a target="_blank" href="https://twitter.com/coderedcm" class="icon fa-twitter"
+           ><span class="label">twitter</span></a></li>
+    
+    
+    
+    
+    
+    <li><a target="_blank" href="https://github.com/codered-co" class="icon fa-github"
+           ><span class="label">github</span></a></li>
+    
+    
+    
+    
+    
+    <li><a target="_blank" href="https://www.linkedin.com/company/35620716/admin/" class="icon fa-linkedin-square"
+           ><span class="label">linkedin-square</span></a></li>
+    
+    
+    
+    
+    
+    <li><a target="_blank" href="https://www.facebook.com/coderedsi" class="icon fa-facebook-official"
+           ><span class="label">facebook-official</span></a></li>
+    
+    
+    
+  </ul>
+  <ul class="copyright">
+    <li>&copy; 
+    
+      
+      
+    
+    2019
+    codered.online</li>
+    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+    <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li>
+  </ul>
+</footer>
+
+
+      <!-- Scripts -->
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.scrollex.min.js"></script>
+<script src="/js/jquery.scrolly.min.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/util.js"></script>
+<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+<script src="/js/main.js"></script>
+
+
+    </div>
+
+  </body>
+
+</html>

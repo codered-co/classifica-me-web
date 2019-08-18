@@ -2694,3 +2694,16 @@ body.is-mobile.landing #footer {
 .center-side {
   flex-direction: column;
   text-align: center; }
+
+.medal-icons {
+  height: 20vh; }
+
+#one {
+  background-color: #505393 !important; }
+
+.back-to-top {
+  position: fixed;
+  top: 90%;
+  right: 40px;
+  font-size: 30px;
+  border-bottom: none; }
